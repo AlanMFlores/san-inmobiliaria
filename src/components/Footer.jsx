@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <footer className='flex px-32 py-14 bg-main gap-20 items-center'>
+    <footer className='flex flex-col lg:flex-row px-16 lg:px-32 py-14 bg-main gap-20 items-start lg:items-center justify-center'>
       <div className='relative h-32 w-64'>
         <Image
           src={"/assets/images/San-Inmobiliaria-Logo.svg"}
@@ -12,7 +12,7 @@ const Footer = () => {
           style={{objectFit:"contain", width:"100%", height:"100%"}}
         />
       </div>
-      <div className='flex gap-20'>
+      <div className='flex flex-col items-start lg:flex-row lg:items-center gap-20'>
         <div>
           <h3 className='mb-8 font-semibold text-2xl'>Enlaces útiles</h3>
           <ul className='flex flex-col gap-6'>

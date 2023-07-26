@@ -5,8 +5,8 @@ import OperationTag from './OperationTag'
 
 const PropertyCard = () => {
   return (
-    <div className='max-w-[278px] rounded-lg'>
-        <div className='relative w-[254px] h-[254px] rounded-t-lg rounded-r-lg'>
+    <div className='w-full max-w-[278px] rounded-lg'>
+        <div className='relative w-full h-[254px] rounded-t-lg rounded-r-lg'>
             <Image 
                 src={'/assets/images/property-image-1.jpg'}
                 fill

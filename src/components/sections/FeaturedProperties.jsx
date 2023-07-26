@@ -1,11 +1,12 @@
 import React from 'react'
 import PropertyCard from '../PropertyCard'
+import SeeMorePropertiesButton from '../SeeMorePropertiesButton'
 
 const FeaturedProperties = () => {
   return (
-    <section className='mt-20 mb-10 mx-32'>
-        <h1 className='text-4xl font-bold text-center mb-12'>Propiedades Destacadas</h1>
-        <div className='grid grid-cols-4 gap-6 justify-center'>
+    <section className='mt-10 lg:mt-20 mb-10 lg:mb-20 mx-8 lg:mx-32'>
+        <h1 className='text-2xl font-bold text-center mb-12'>Propiedades Destacadas</h1>
+        <div className='grid lg:grid-cols-4 gap-6 justify-center mb-8 lg:mb-16'>
             <PropertyCard/>
             <PropertyCard/>
             <PropertyCard/>
@@ -14,6 +15,9 @@ const FeaturedProperties = () => {
             <PropertyCard/>
             <PropertyCard/>
             <PropertyCard/> 
+        </div>
+        <div className='flex justify-center'>
+          <SeeMorePropertiesButton/>
         </div>
     </section>
   )
