@@ -5,7 +5,7 @@ import SearchPropertiesButton from './SearchPropertiesButton'
 
 const SearchBar = () => {
   return (
-    <div className='bg-warmGray800 p-8 lg:w-[1008px]'>
+    <div className='bg-warmGray800 p-8 w-full max-w-[512px] lg:w-[1008px] lg:max-w-none'>
         <form>
             <div className='flex flex-col gap-6'>
                 <div className='flex flex-col lg:flex-row gap-4'>
@@ -15,13 +15,13 @@ const SearchBar = () => {
                     <Select name="Ambientes" options={["1", "2", "3 o más"]}/>        
                 </div>
                 <div className='flex flex-col lg:flex-row gap-4 items-center'>
-                    <div className='flex gap-4 flex-col lg:flex-row items-center flex-grow'>
+                    <div className='flex gap-4 flex-col lg:flex-row items-center justify-around flex-grow'>
                         <p>Rango de Precios</p>
-                        <div className='flex flex-col items-center gap-4'>
+                        <div className='flex flex-col lg:flex-row items-center gap-4'>
                             <div className='flex gap-4 items-center'>
-                                <Input type="number" id="min-price" dir={"rtl"} placeholder={"0"}></Input>
+                                <Input type="number" id="min-price" dir={"rtl"} placeholder={"0"} width={"full"}></Input>
                                 <span> - </span>
-                                <Input type="number" id="max-price" dir={"rtl"} placeholder={"200.000"}></Input>
+                                <Input type="number" id="max-price" dir={"rtl"} placeholder={"200.000"} width={"full"}></Input>
                             </div>
                             <div className='flex gap-2 items-center'>
                                 <label htmlFor="pesos" className='mr-1'>Pesos</label>

@@ -2,6 +2,7 @@ import {React, useState} from 'react'
 import Image from 'next/image'
 import NavLink from './NavLink'
 import Button from './Button'
+import Link from 'next/link'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -14,11 +15,13 @@ const Header = () => {
     <header className='flex flex-col lg:flex-row items-center justify-between px-32 py-7 shadow-lg'>
       <div className='flex flex-col gap-6 items-center'>
         <div className='relative'>
-          <Image
-            src="assets/images/San-Inmobiliaria-Logo.svg"
-            width={128}
-            height={87}
-          />
+          <Link href={'/'}>
+            <Image
+              src="assets/images/San-Inmobiliaria-Logo.svg"
+              width={128}
+              height={87}
+            />
+          </Link>
         </div>
         <button className='block lg:hidden' onClick={handleToggleMenu}>
           <Image 
@@ -29,7 +32,7 @@ const Header = () => {
           />
         </button>
       </div>
-      <nav className={`flex flex-col lg:items-center ${
+      <nav className={`lg:flex flex-col lg:items-center ${
           isOpen ? 'flex' : 'hidden'
         } lg:flex-row gap-4 items-center transition-all duration-300`}
       >

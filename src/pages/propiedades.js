@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '@component/components/Header'
 import Footer from '@component/components/Footer'
 
-const Properties = () => {
+const Propiedades = () => {
   return (
     <>
       <Header/>
@@ -12,4 +12,4 @@ const Properties = () => {
   )
 }
 
-export default Properties
+export default Propiedades
