@@ -11,7 +11,7 @@ const Tasaciones = () => {
       <Breadcrumbs page={"Tasaciones"}/>
       <section className='mb-10 mt-8 lg:mb-20 mx-8 lg:mx-32'>
         <h1 className='text-4xl font-bold'>Tasaciones</h1>
-        <div className='my-8 w-full h-[424px] bg-[url(/assets/images/appraisals-hero-image.jpg)] bg-cover'>
+        <div className='my-8 w-full h-[424px] bg-[url(/assets/images/appraisals-hero-image.jpg)] bg-cover bg-center'>
         </div>
         <div className='flex flex-col gap-4'>
           <p className='text-base'>

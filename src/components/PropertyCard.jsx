@@ -6,12 +6,12 @@ import OperationTag from './OperationTag'
 const PropertyCard = () => {
   return (
     <div className='w-full rounded-lg'>
-        <div className='relative w-full h-[254px] rounded-tr-lg rounded-tl-lg rounded min-w-[278px] lg:min-w-[246px]'>
+        <div className='relative w-full h-[254px] rounded-tr-lg rounded-tl-lg min-w-[278px] lg:min-w-[246px]'>
             <Image 
                 src={'/assets/images/property-image-1.jpg'}
                 fill
                 style={{objectFit:"cover", width:"100%", height:"100%"}}
-                className='rounded-lg z-20'
+                className='rounded-tr-lg rounded-tl-lg z-20'
             />
             <OperationTag/>
         </div>

@@ -16,7 +16,7 @@ const SearchBar = () => {
                 </div>
                 <div className='flex flex-col lg:flex-row gap-4 items-center'>
                     <div className='flex gap-4 flex-col lg:flex-row items-center justify-around flex-grow'>
-                        <p>Rango de Precios</p>
+                        <p>Precio:</p>
                         <div className='flex flex-col lg:flex-row items-center gap-4'>
                             <div className='flex gap-4 items-center'>
                                 <Input type="number" id="min-price" dir={"rtl"} placeholder={"0"} width={"full"}></Input>

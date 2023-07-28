@@ -12,7 +12,7 @@ const Header = () => {
   }
 
   return (
-    <header className='flex flex-col lg:flex-row items-center justify-between px-32 py-7 shadow-lg'>
+    <header className='flex flex-col xl:flex-row items-center justify-between px-32 py-7 shadow-lg'>
       <div className='flex flex-col gap-6 items-center'>
         <div className='relative'>
           <Link href={'/'}>
@@ -23,7 +23,7 @@ const Header = () => {
             />
           </Link>
         </div>
-        <button className='block lg:hidden' onClick={handleToggleMenu}>
+        <button className='block xl:hidden' onClick={handleToggleMenu}>
           <Image 
             src={'/assets/icons/menu.svg'}
             width={40}
@@ -32,13 +32,13 @@ const Header = () => {
           />
         </button>
       </div>
-      <nav className={`lg:flex flex-col lg:items-center ${
+      <nav className={`xl:flex flex-col xl:items-center ${
           isOpen ? 'flex' : 'hidden'
-        } lg:flex-row gap-4 items-center transition-all duration-300`}
+        } xl:flex-row gap-4 items-center transition-all duration-300`}
       >
         <NavLink href={"/"}>Home</NavLink>
-        <NavLink href={"/alquileres"}>Alquileres</NavLink>
-        <NavLink href={"/ventas"}>Ventas</NavLink>
+        <NavLink href={"/alquiler"}>Alquiler</NavLink>
+        <NavLink href={"/venta"}>Venta</NavLink>
         <NavLink href={"/tasaciones"}>Tasaciones</NavLink>
         <NavLink href={"/nosotros"}>Nosotros</NavLink>
         <Button/>

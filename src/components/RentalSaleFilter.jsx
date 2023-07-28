@@ -2,13 +2,12 @@ import React from 'react'
 import Select from './Select'
 import Image from 'next/image'
 
-const PropertyFilter = () => {
+const RentalSaleFilter = () => {
   return (
     <section className='mx-8 lg:mx-32'>
         <div className='flex flex-col lg:flex-row gap-4'>
             <Select name="Barrio" options={["25 de Mayo	", "Villa Sarita", "Villa Cabello", "Centro"]}/>        
             <Select name="Tipo de Unidad" options={["Casa", "Departamento"]}/>        
-            <Select name="Operación" options={["Alquiler", "Venta"]}/>        
             <Select name="Ambientes" options={["1", "2", "3 o más"]}/>
             <div className='relative flex-grow'>
                 <button className='flex pl-4 pr-1 py-2 items-center justify-between gap-2 w-full bg-warmGray700'>
@@ -45,8 +44,8 @@ const PropertyFilter = () => {
                 <option className='text-white'>{"Menos reciente"}</option>
     </select>
         </div>
-    </section>    
-    )
+    </section> 
+  )
 }
 
-export default PropertyFilter
+export default RentalSaleFilter

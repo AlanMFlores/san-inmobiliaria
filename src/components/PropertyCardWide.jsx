@@ -5,17 +5,17 @@ import Button from './Button'
 
 const PropertyCardWide = () => {
   return (
-    <div className='flex w-full rounded-lg'>
-        <div className='relative w-full h-[254px] rounded-tl-lg rounded-bl-lg max-w-[420px]'>
+    <div className='flex w-full flex-col sm:flex-row rounded-lg'>
+        <div className='relative w-full h-[254px] sm:h-[300px] lg:max-h-[254px] rounded-tl-lg rounded-tr-lg sm:rounded-tr-none sm:rounded-tl-lg sm:rounded-bl-lg sm:max-w-[420px]'>
             <Image 
                 src={'/assets/images/property-image-3.jpg'}
                 fill
                 style={{objectFit:"cover", width:"100%", height:"100%"}}
-                className='rounded-tl-lg rounded-bl-lg z-20'
+                className='rounded-tl-lg rounded-tr-lg sm:rounded-tr-none sm:rounded-tl-lg sm:rounded-bl-lg z-20'
             />
             <OperationTag/>
         </div>
-        <div className='flex flex-col justify-between bg-warmGray700 p-4 rounded-tr-lg rounded-br-lg w-full min-w-[278px] lg:min-w-[246px]'>
+        <div className='flex flex-col justify-between bg-warmGray700 p-4 rounded-bl-lg sm:rounded-bl-none rounded-br-lg sm:rounded-tr-lg sm:rounded-br-lg w-full lg:max-w-none lg:min-w-[246px]'>
             <h3 className='text-2xl font-bold text-warmGray400 mb-1'>U$S100.000</h3>
             <p className='text-xl font-bold'>Amalia Vera y Av. Bustamante</p>
             <p className='text-sm text-warmGray300 mb-2'>Posadas, Zona Centro</p>
