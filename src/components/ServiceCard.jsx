@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const ServiceCard = ({title, description, icon}) => {
   return (
-    <div className='relative'>
+    <div className='relative max-w-[320px] md:max-w-[512px] m-auto'>
         <div className='absolute right-6 -top-8 lg:-top-10'>
             <Image 
                 src={`/assets/icons/${icon}.svg`}

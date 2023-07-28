@@ -5,8 +5,8 @@ import OperationTag from './OperationTag'
 
 const PropertyCard = () => {
   return (
-    <div className='w-full max-w-[278px] rounded-lg'>
-        <div className='relative w-full h-[254px] rounded-t-lg rounded-r-lg'>
+    <div className='w-full rounded-lg'>
+        <div className='relative w-full h-[254px] rounded-tr-lg rounded-tl-lg rounded min-w-[278px] lg:min-w-[246px]'>
             <Image 
                 src={'/assets/images/property-image-1.jpg'}
                 fill
@@ -15,7 +15,7 @@ const PropertyCard = () => {
             />
             <OperationTag/>
         </div>
-        <div className='bg-warmGray700 p-4 rounded-br-lg rounded-bl-lg w-[254px]'>
+        <div className='bg-warmGray700 p-4 rounded-br-lg rounded-bl-lg w-full min-w-[278px] lg:min-w-[246px]'>
             <h3 className='text-lg font-semibold mb-1'>Av. Roque Saenz Peña </h3>
             <p className='text-sm text-warmGray300 mb-2'>Posadas, Zona Centro</p>
             <p className='text-sm text-warmGray400 mb-2'>3 Ambientes - 70m2  </p>
