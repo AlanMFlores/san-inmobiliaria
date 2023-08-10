@@ -14,11 +14,11 @@ const Anuncio = () => {
     <>
         <Header/>
         <Breadcrumbs page={"Anuncio"}/>
-        <section className='mx-8 lg:mx-32'>
+        <section className='flex flex-col items-center xl:block mx-8 lg:mx-32'>
             <div className='flex flex-col mb-10 mt-8 gap-4'>
               <div className='flex justify-between max-w-[784px]'>
-                <h1 className='text-4xl font-bold'>Amalia Vera y Av. Bustamante</h1>
-                <p className='text-4xl font-bold text-warmGray400'>U$S 127.000</p>
+                <h1 className='text-2xl xl:text-4xl font-bold'>Amalia Vera y Av. Bustamante</h1>
+                <p className='text-xl xl:text-4xl font-bold text-warmGray400'>U$S 127.000</p>
               </div>
               <div className='flex justify-between max-w-[784px]'>
                 <p className='text-lg text-warmGray300'>Posadas, Zona Centro</p>
@@ -28,13 +28,13 @@ const Anuncio = () => {
               </div>
             </div>
         </section>
-        <section className='flex mx-8 mb-20 lg:mx-32 gap-8'>
-          <div className='flex flex-col gap-8'>
+        <section className='flex flex-col items-center xl:flex-row xl:items-start mx-8 mb-20 lg:mx-32 gap-8'>
+          <div className='flex flex-col items-center gap-8 w-full'>
             <PropertyGallery/>
             <PropertyDescription/>
             <PropertyFeatures/>
           </div>
-          <div className='flex flex-col gap-8'>
+          <div className='flex flex-col items-center gap-8 w-full max-w-[784px]'>
             <ContactPropertyForm/>
             <PropertyLocation/>
           </div>

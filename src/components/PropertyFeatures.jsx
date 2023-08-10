@@ -3,7 +3,8 @@ import Image from "next/image";
 
 const PropertyFeatures = () => {
     return(
-        <div className='p-8 bg-warmGray700 rounded-lg max-w-[784px]'>
+        <div className='p-8 bg-warmGray700 rounded-lg w-full
+         max-w-[784px]'>
             <h3 className='text-2xl font-semibold border-b-4 border-main pb-4 mb-6 inline-block'>Características</h3>
             <div className='flex flex-col gap-2'>
                 <div className='flex gap-4 mb-6'>

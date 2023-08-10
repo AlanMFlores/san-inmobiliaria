@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const PropertyGallery = () => {
   return (
-    <div className='p-14 bg-warmGray700 max-w-[784px] rounded-lg'>
+    <div className='p-14 bg-warmGray700 w-full max-w-[784px] rounded-lg'>
         <div className='flex justify-between mb-11'>
             <button>
                 <Image

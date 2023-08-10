@@ -1,0 +1,148 @@
+{
+    "properties": [
+        {
+            "title": "Amalia Vera y Av. Bustamante",
+            "price": "127.000",
+            "zone": "Posadas, Zona Centro",
+            "images": "",
+            "cover": "/assets/images/property-image-1.jpg",
+            "operation": "Venta",
+            "description": "Duplex moderno y luminoso a sólo 10 minutos del centro. La unidad cuenta con tres ambientes, tres baños, cocina, lavadero, living-comedor, cochera con portón automatizado. Equipamiento:  Split en todos los ambientes, sistemas de termofusión y termotanque eléctrico.",
+            "ambience": "2",
+            "metres": "70",
+            "features": ["Tres dormitorios","Tres baños","Cocina", "Lavadero", "Termotanque eléctrico", "Living-Comedor", "Cochera", "Aire Acondicionado"]
+        },
+        {
+            "title": "Calle San Martín 1234",
+            "price": "85.000",
+            "zone": "Belgrano, Zona Norte",
+            "images": "",
+            "cover": "/assets/images/property-image-2.jpg",
+            "operation": "Venta",
+            "description": "Acogedor departamento de dos ambientes en excelente ubicación. Cocina equipada, living-comedor luminoso y dormitorio con placard empotrado.",
+            "ambience": "1",
+            "metres": "45",
+            "features": ["Un dormitorio", "Cocina equipada", "Placard empotrado", "Cerca de transporte público"]
+        },
+        {
+            "title": "Av. Corrientes 5678",
+            "price": "1.200",
+            "zone": "Balvanera, Zona Centro",
+            "images": "",
+            "cover": "/assets/images/property-image-3.jpg",
+            "operation": "Alquiler",
+            "description": "Amplio local comercial en esquina con excelente visibilidad. Cuenta con baño, espacio de almacenamiento y grandes ventanales.",
+            "ambience": "1",
+            "metres": "100",
+            "features": ["Local comercial", "Baño propio", "Ventanales amplios", "Ubicación estratégica"]
+        },
+        {
+            "title": "Calle Roca 987",
+            "price": "320.000",
+            "zone": "La Plata, Zona Sur",
+            "images": "",
+            "cover": "/assets/images/property-image-4.jpg",
+            "operation": "Venta",
+            "description": "Casa de estilo clásico con jardín amplio. Tres dormitorios, dos baños, cocina remodelada y espacio para estacionamiento.",
+            "ambience": "4",
+            "metres": "200",
+            "features": ["Tres dormitorios", "Dos baños", "Cocina remodelada", "Jardín espacioso", "Estacionamiento"]
+        },
+        {
+            "title": "Av. Libertador 246",
+            "price": "950",
+            "zone": "Recoleta, Zona Norte",
+            "images": "",
+            "cover": "/assets/images/property-image-1.jpg",
+            "operation": "Alquiler",
+            "description": "Oficina moderna con vista panorámica. Espacio diáfano, baño privado y acceso a áreas comunes del edificio.",
+            "ambience": "1",
+            "metres": "60",
+            "features": ["Oficina", "Vista panorámica", "Baño privado", "Acceso a áreas comunes"]
+        },
+        {
+            "title": "Calle Maipú 555",
+            "price": "175.000",
+            "zone": "Olivos, Zona Norte",
+            "images": "",
+            "cover": "/assets/images/property-image-2.jpg",
+            "operation": "Venta",
+            "description": "Departamento en torre con amenities. Dos dormitorios, balcón con vista al río, piscina y gimnasio en el edificio.",
+            "ambience": "3",
+            "metres": "80",
+            "features": ["Dos dormitorios", "Balcón con vista al río", "Amenities (piscina, gimnasio)", "Seguridad 24/7"]
+        },
+        {
+            "title": "Av. Santa Fe 789",
+            "price": "1.500",
+            "zone": "Palermo, Zona Centro",
+            "images": "",
+            "cover": "/assets/images/property-image-3.jpg",
+            "operation": "Alquiler",
+            "description": "Local comercial con diseño moderno. Amplios escaparates, espacio de almacenamiento y ubicación en zona de alto tráfico.",
+            "ambience": "1",
+            "metres": "90",
+            "features": ["Local comercial", "Escaparates amplios", "Espacio de almacenamiento", "Alto tráfico peatonal"]
+        },
+        {
+            "title": "Calle Rivadavia 4321",
+            "price": "280.000",
+            "zone": "Caballito, Zona Centro",
+            "images": "",
+            "cover": "/assets/images/property-image-4.jpg",
+            "operation": "Venta",
+            "description": "Amplio duplex con terraza privada. Tres dormitorios, cocina con isla, amplio living-comedor y detalles de diseño.",
+            "ambience": "4",
+            "metres": "150",
+            "features": ["Tres dormitorios", "Cocina con isla", "Terraza privada", "Detalles de diseño"]
+        },
+        {
+            "title": "Av. Corrientes 1234",
+            "price": "2.800",
+            "zone": "San Nicolás, Zona Centro",
+            "images": "",
+            "cover": "/assets/images/property-image-1.jpg",
+            "operation": "Alquiler",
+            "description": "Oficina en edificio corporativo. Espacio de trabajo abierto, salas de reuniones equipadas y servicio de conserjería.",
+            "ambience": "1",
+            "metres": "120",
+            "features": ["Oficina en edificio corporativo", "Espacio de trabajo abierto", "Salas de reuniones equipadas", "Conserjería"]
+        },
+        {
+            "title": "Calle Sarmiento 987",
+            "price": "135.000",
+            "zone": "Morón, Zona Oeste",
+            "images": "",
+            "cover": "/assets/images/property-image-2.jpg",
+            "operation": "Venta",
+            "description": "Casa con jardín y parrilla. Dos dormitorios, amplio comedor, cochera y acceso a transporte público.",
+            "ambience": "3",
+            "metres": "120",
+            "features": ["Dos dormitorios", "Amplio comedor", "Jardín con parrilla", "Cochera", "Cerca de transporte público"]
+        },
+        {
+            "title": "Av. 9 de Julio 567",
+            "price": "3.500",
+            "zone": "San Telmo, Zona Sur",
+            "images": "",
+            "cover": "/assets/images/property-image-3.jpg",
+            "operation": "Alquiler",
+            "description": "Amplio local para eventos. Espacio versátil, cocina industrial, sistema de sonido y capacidad para 150 personas.",
+            "ambience": "1",
+            "metres": "250",
+            "features": ["Local para eventos", "Espacio versátil", "Cocina industrial", "Sistema de sonido", "Capacidad para 150 personas"]
+        },
+        {
+            "title": "Calle Pellegrini 654",
+            "price": "210.000",
+            "zone": "Ramos Mejía, Zona Oeste",
+            "images": "",
+            "cover": "/assets/images/property-image-4.jpg",
+            "operation": "Venta",
+            "description": "Departamento de diseño moderno. Un dormitorio, balcón, piscina en el edificio y cercanía a centros comerciales.",
+            "ambience": "2",
+            "metres": "65",
+            "features": ["Un dormitorio", "Balcón", "Piscina en el edificio", "Cercanía a centros comerciales"]
+        }
+    ]
+}

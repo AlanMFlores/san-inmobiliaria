@@ -3,7 +3,7 @@ import Input from './Input'
 
 const ContactPropertyForm = () => {
   return (
-    <form>
+    <form className='w-full'>
         <div className='bg-warmGray700 px-4 py-8 rounded-lg'>
             <h4 className='text-2xl font-semibold mb-4'>Contacte con nosotros</h4>
             <div className='flex flex-col gap-2'>

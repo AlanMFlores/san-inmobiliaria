@@ -12,7 +12,7 @@ const Venta = () => {
       <Breadcrumbs page={"Venta"}/>
       <h1 className='text-4xl font-bold mb-10 mt-8 mx-8 lg:mx-32'>Venta</h1>
       <RentalSaleFilter/>
-      <PropertiesSection/>
+      <PropertiesSection operationFilter={"Venta"}/>
       <Footer/>
     </>
   )
