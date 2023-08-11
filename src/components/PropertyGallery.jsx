@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const PropertyGallery = () => {
+const PropertyGallery = ({cover}) => {
   return (
     <div className='p-14 bg-warmGray700 w-full max-w-[784px] rounded-lg'>
         <div className='flex justify-between mb-11'>
@@ -14,7 +14,7 @@ const PropertyGallery = () => {
             </button>
             <div className='w-[384px] h-[478px]'>
                 <Image
-                    src={'/assets/images/property-image-4.jpg'}
+                    src={cover}
                     width={88}
                     height={128}
                     className='w-full h-full object-cover'

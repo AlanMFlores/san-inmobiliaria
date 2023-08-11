@@ -17,7 +17,7 @@ const Header = () => {
         <div className='relative'>
           <Link href={'/'}>
             <Image
-              src="assets/images/San-Inmobiliaria-Logo.svg"
+              src="/assets/images/San-Inmobiliaria-Logo.svg"
               width={128}
               height={87}
             />

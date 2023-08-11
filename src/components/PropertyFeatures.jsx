@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const PropertyFeatures = () => {
+const PropertyFeatures = ({metres, ambience, features}) => {
     return(
         <div className='p-8 bg-warmGray700 rounded-lg w-full
          max-w-[784px]'>
@@ -14,7 +14,7 @@ const PropertyFeatures = () => {
                             width={16}    
                             height={16}    
                         />
-                        <p>70mt2</p>
+                        <p>{`${metres} mt2`}</p>
                     </div>
                     <div className='flex gap-2'>
                         <Image 
@@ -22,18 +22,15 @@ const PropertyFeatures = () => {
                             width={16}    
                             height={16}    
                         />
-                        <p>2 ambientes</p>
+                        <p>{`${ambience} ambientes`}</p>
                     </div>
                 </div>
                 <div className="grid grid-cols-3 gap-6">
-                    <p className="text-warmGray400">• Un dormitorio</p>
-                    <p className="text-warmGray400">• Tres baños</p>
-                    <p className="text-warmGray400">• Cocina</p>
-                    <p className="text-warmGray400">• Lavadero</p>
-                    <p className="text-warmGray400">• Termotanque eléctrico</p>
-                    <p className="text-warmGray400">• Living-Comedor</p>
-                    <p className="text-warmGray400">• Cochera</p>
-                    <p className="text-warmGray400">• Aire Acondicionado</p>
+                    {
+                        features.map(feature => (
+                            <p className="text-warmGray400">{`• ${feature}`}</p>
+                        ))
+                    }
                 </div>
             </div>
         </div>

@@ -10,8 +10,8 @@ const PropertiesSection = ({operationFilter}) => {
     <>
       <section className='flex flex-col gap-6 mx-8 lg:mx-32 mb-12'>
         {
-          properties.map(({title, zone, ambience, metres, price, cover, description, operation}) => (
-            <PropertyCardWide title={title} zone={zone} cover={cover} ambience={ambience} metres={metres} price={price} description={description} operation={operation} key={title}/>
+          properties.map(({title, zone, ambience, slug, metres, price, cover, description, operation}) => (
+            <PropertyCardWide title={title} zone={zone} slug={slug} cover={cover} ambience={ambience} metres={metres} price={price} description={description} operation={operation} key={title}/>
           ))
         } 
       </section>

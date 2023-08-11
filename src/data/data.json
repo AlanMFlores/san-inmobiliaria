@@ -2,6 +2,7 @@
     "properties": [
         {
             "title": "Amalia Vera y Av. Bustamante",
+            "slug": "venta-amalia-vera-av-bustamante",
             "price": "127.000",
             "zone": "Posadas, Zona Centro",
             "images": "",
@@ -14,6 +15,7 @@
         },
         {
             "title": "Calle San Martín 1234",
+            "slug": "venta-calle-san-martin-1234",
             "price": "85.000",
             "zone": "Belgrano, Zona Norte",
             "images": "",
@@ -26,6 +28,7 @@
         },
         {
             "title": "Av. Corrientes 5678",
+            "slug": "alquiler-av-corrientes-5678",
             "price": "1.200",
             "zone": "Balvanera, Zona Centro",
             "images": "",
@@ -38,6 +41,7 @@
         },
         {
             "title": "Calle Roca 987",
+            "slug": "venta-calle-roca-987",
             "price": "320.000",
             "zone": "La Plata, Zona Sur",
             "images": "",
@@ -50,6 +54,7 @@
         },
         {
             "title": "Av. Libertador 246",
+            "slug": "av-libertador-246",
             "price": "950",
             "zone": "Recoleta, Zona Norte",
             "images": "",
@@ -62,6 +67,7 @@
         },
         {
             "title": "Calle Maipú 555",
+            "slug": "calle-maipu-555",
             "price": "175.000",
             "zone": "Olivos, Zona Norte",
             "images": "",
@@ -74,6 +80,7 @@
         },
         {
             "title": "Av. Santa Fe 789",
+            "slug": "av-santa-fe-789",
             "price": "1.500",
             "zone": "Palermo, Zona Centro",
             "images": "",
@@ -86,6 +93,7 @@
         },
         {
             "title": "Calle Rivadavia 4321",
+            "slug": "calle-rivadavia-4321",
             "price": "280.000",
             "zone": "Caballito, Zona Centro",
             "images": "",
@@ -98,6 +106,7 @@
         },
         {
             "title": "Av. Corrientes 1234",
+            "slug": "av-corrientes-1234",
             "price": "2.800",
             "zone": "San Nicolás, Zona Centro",
             "images": "",
@@ -110,6 +119,7 @@
         },
         {
             "title": "Calle Sarmiento 987",
+            "slug": "calle-sarmiento-987",
             "price": "135.000",
             "zone": "Morón, Zona Oeste",
             "images": "",
@@ -122,6 +132,7 @@
         },
         {
             "title": "Av. 9 de Julio 567",
+            "slug": "av-9-julio-567",
             "price": "3.500",
             "zone": "San Telmo, Zona Sur",
             "images": "",
@@ -134,6 +145,7 @@
         },
         {
             "title": "Calle Pellegrini 654",
+            "slug": "calle-pellegrini-654",
             "price": "210.000",
             "zone": "Ramos Mejía, Zona Oeste",
             "images": "",
