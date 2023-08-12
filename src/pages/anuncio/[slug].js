@@ -12,12 +12,7 @@ import propertiesData from '../../data/data.json'
 import { useRouter } from 'next/router'
 
 
-const Anuncio = () => {
-  const router = useRouter()
-
-  const { slug } = router.query;
-
-  const selectedProperty = propertiesData.properties.find(property => property.slug === slug)
+const Anuncio = ({selectedProperty}) => {
 
   const {title, price, zone, cover, description, features, operation, metres, ambience} = selectedProperty;
 
@@ -53,6 +48,31 @@ const Anuncio = () => {
         <Footer/>
     </>
   )
+}
+
+export async function getStaticPaths() {
+  const paths = propertiesData.properties.map(property => (
+    {
+      params: {slug: property.slug}
+    }
+  ));
+
+  return {
+    paths,
+    fallback: false
+  }
+}
+
+export async function getStaticProps({params}) {
+  const selectedProperty = propertiesData.properties.find(
+    property => property.slug === params.slug
+  );
+
+  return {
+    props: {
+      selectedProperty
+    }
+  }
 }
 
 export default Anuncio
