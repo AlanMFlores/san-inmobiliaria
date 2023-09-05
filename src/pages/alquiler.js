@@ -12,7 +12,6 @@ const Alquiler = () => {
       <Breadcrumbs page={"Alquiler"}/>
       <h1 className='text-4xl font-bold mb-10 mt-8 mx-8 lg:mx-32'>Alquiler</h1>
       <div className='mx-8 lg:mx-32'>
-        <SortProperties/>
       </div>
       <PropertiesSection operationFilter={"Alquiler"}/>
       <Footer/>
