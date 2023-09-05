@@ -1,91 +1,61 @@
-import React from 'react'
 import Image from 'next/image'
+import { useState } from 'react';
 
-const PropertyGallery = ({cover}) => {
+const PropertyGallery = ({images}) => {
+    const [isVisible, setIsVisible] = useState(false);
+    const [imageOverlay, setImage] = useState('');
+
+    const handleImageOverlay = (image) => {
+     setIsVisible(true)
+     setImage(image)
+    }
+    
+    const closeOverlay = () => {
+        setIsVisible(false);
+    }
+
   return (
-    <div className='p-14 bg-warmGray700 w-full max-w-[784px] rounded-lg'>
-        <div className='flex justify-between mb-11'>
-            <button>
-                <Image
-                    src={'/assets/icons/chevron-left-gallery.svg'}
-                    width={48}
-                    height={48}
-                />
-            </button>
-            <div className='w-[384px] h-[478px]'>
-                <Image
-                    src={cover}
-                    width={88}
-                    height={128}
-                    className='w-full h-full object-cover'
-                />
+    <div className='p-8 bg-warmGray700 w-full xl:w-[784px] max-w-[784px] rounded-lg'>
+            <div className='w-full grid grid-cols-2 justify-center'>
+                {
+                    images.map(image => (
+                        (
+                        <div className='h-60 w-full col-start-1 col-end-3 duration-100'>
+                            <Image
+                                src={image}
+                                width={88}
+                                height={128}
+                                className='w-full h-full object-cover cursor-pointer duration-100 hover:opacity-60'
+                                onClick={() => handleImageOverlay(image)}
+                            />
+                        </div>
+                    )))
+                }
+                {
+                    isVisible && (
+                        <div className={`fixed inset-0 z-50 bg-warmGrayOverlay`}>
+                            <div className='relative'>
+                                <div className='absolute top-6 right-6 z-[100]'>
+                                    <Image
+                                        src={'/assets/icons/cross.svg'}
+                                        width={32}
+                                        height={32}
+                                        className='cursor-pointer'
+                                        onClick={closeOverlay}
+                                    />
+                                </div>
+                            </div>
+                            <div className='relative w-full h-screen inset-0 grid place-content-center'>
+                                <Image
+                                    src={imageOverlay}
+                                    width={512}
+                                    height={512}
+                                />
+                            </div>
+                        </div>
+                    )
+                }
             </div>
-            <button>
-                <Image
-                    src={'/assets/icons/chevron-right-gallery.svg'}
-                    width={48}
-                    height={48}
-                />
-            </button>
-        </div>
-        <div className='flex gap-4'>
-            <div className='w-[88px] h-[128px] '>
-                <Image
-                    src={'/assets/images/property-image-4.jpg'}
-                    width={88}
-                    height={128}
-                    className='w-full h-full object-cover'
-                />
-            </div>
-            <div className='w-[88px] h-[128px] '>
-                <Image
-                    src={'/assets/images/property-image-4.jpg'}
-                    width={88}
-                    height={128}
-                    className='w-full h-full object-cover'
-                />
-            </div>
-            <div className='w-[88px] h-[128px] '>
-                <Image
-                    src={'/assets/images/property-image-4.jpg'}
-                    width={88}
-                    height={128}
-                    className='w-full h-full object-cover'
-                />
-            </div>
-            <div className='w-[88px] h-[128px] '>
-                <Image
-                    src={'/assets/images/property-image-4.jpg'}
-                    width={88}
-                    height={128}
-                    className='w-full h-full object-cover'
-                />
-            </div>
-            <div className='w-[88px] h-[128px] '>
-                <Image
-                    src={'/assets/images/property-image-4.jpg'}
-                    width={88}
-                    height={128}
-                    className='w-full h-full object-cover'
-                />
-            </div>
-            <div className='w-[88px] h-[128px] '>
-                <Image
-                    src={'/assets/images/property-image-4.jpg'}
-                    width={88}
-                    height={128}
-                    className='w-full h-full object-cover'
-                />
-            </div>
-            <div className='w-[88px] h-[128px] '>
-                <Image
-                    src={'/assets/images/property-image-4.jpg'}
-                    width={88}
-                    height={128}
-                    className='w-full h-full object-cover'
-                />
-            </div>
-        </div>
     </div>
   )
 }

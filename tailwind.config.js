@@ -16,8 +16,10 @@ module.exports = {
         warmGray500: "#78716C",
         warmGray400: "#A8A29E",
         warmGray300: "#D6D3D1",
+        warmGrayOverlay: "rgba(41,37,36, 0.8)"
       }
     },
   },
   plugins: [],
 }
+

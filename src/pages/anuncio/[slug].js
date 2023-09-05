@@ -14,17 +14,19 @@ import { useRouter } from 'next/router'
 
 const Anuncio = ({selectedProperty}) => {
 
-  const {title, price, zone, cover, description, features, operation, metres, ambience} = selectedProperty;
+  const {title, price, zone, images, description, features, operation, metres, ambience} = selectedProperty;
 
   return (
     <>
         <Header/>
-        <Breadcrumbs page={"Anuncio"}/>
         <section className='flex flex-col items-center xl:block mx-8 lg:mx-32'>
-            <div className='flex flex-col mb-10 mt-8 gap-4'>
-              <div className='flex justify-between max-w-[784px]'>
-                <h1 className='text-2xl xl:text-4xl font-bold'>{title}</h1>
-                <p className='text-xl xl:text-4xl font-bold text-warmGray400'>{`U$S ${price}`}</p>
+            <div className='flex flex-col w-full max-w-[784px] mb-10 mt-8 gap-4'>
+              <div className='mt-12'>
+                <p className='text-white text-sm'>Home / <span>Anuncio</span></p>
+              </div>
+              <div className='flex justify-between w-full max-w-[784px]'>
+                <h1 className='text-xl md:text-3xl xl:text-4xl font-bold'>{title}</h1>
+                <p className='text-xl md:text-3xl xl:text-4xl font-bold text-warmGray400'>{`U$S${price}`}</p>
               </div>
               <div className='flex justify-between max-w-[784px]'>
                 <p className='text-lg text-warmGray300'>{zone}</p>
@@ -36,7 +38,7 @@ const Anuncio = ({selectedProperty}) => {
         </section>
         <section className='flex flex-col items-center xl:flex-row xl:items-start mx-8 mb-20 lg:mx-32 gap-8'>
           <div className='flex flex-col items-center gap-8 w-full'>
-            <PropertyGallery cover={cover}/>
+            <PropertyGallery images={images}/>
             <PropertyDescription description={description}/>
             <PropertyFeatures features={features} metres={metres} ambience={ambience}/>
           </div>
