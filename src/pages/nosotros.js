@@ -49,7 +49,7 @@ const Nosotros = () => {
         <div className='flex flex-col items-center gap-4'>
           <p className='text-base font-semibold'>Sandra Espíndola</p>
           <p>Martillera - Corredora Pública Inmobiliario </p>
-          <p>Matrícula N° 202</p>
+          <p>CCPIM Matrícula N° 202</p>
         </div>  
         </div>
       </section>
