@@ -21,13 +21,13 @@ const Nosotros = () => {
             <p>¿Por qué elegirnos?</p>
               <ol className='flex flex-col gap-6 list-decimal ps-4'>
                 <li className="text-justify">
-                  <strong className="text-main">Asesoramiento integral para la compra y venta de propiedades</strong>: Te guiaremos a lo largo de todo el proceso, desde la búsqueda y selección de propiedades hasta la negociación y cierre de la operación. Estamos comprometidos en encontrar la propiedad perfecta que se ajuste a tus necesidades y presupuesto.
+                  <strong className="font-semibold text-main">Asesoramiento integral para la compra y venta de propiedades</strong>: Te guiaremos a lo largo de todo el proceso, desde la búsqueda y selección de propiedades hasta la negociación y cierre de la operación. Estamos comprometidos en encontrar la propiedad perfecta que se ajuste a tus necesidades y presupuesto.
                 </li>
                 <li className="text-justify">
-                  <strong className="text-main">Alquileres</strong>: Si estás buscando un lugar para vivir temporalmente, te ofrecemos una amplia selección de opciones de alquiler. Nos encargaremos de encontrar la propiedad adecuada y gestionar todos los trámites necesarios para que puedas disfrutar de tu nuevo hogar sin complicaciones.
+                  <strong className="font-semibold text-main">Alquileres</strong>: Si estás buscando un lugar para vivir temporalmente, te ofrecemos una amplia selección de opciones de alquiler. Nos encargaremos de encontrar la propiedad adecuada y gestionar todos los trámites necesarios para que puedas disfrutar de tu nuevo hogar sin complicaciones.
                 </li>
                 <li className="text-justify">
-                  <strong className="text-main">Tasaciones profesionales</strong>: Contamos con expertos en tasaciones inmobiliarias que te brindarán una valoración precisa y confiable de tu propiedad. Ya sea que necesites una tasación para la venta, la compra, o cualquier otro propósito, podemos ayudarte a determinar el valor real de tu inversión
+                  <strong className="font-semibold text-main">Tasaciones profesionales</strong>: Contamos con expertos en tasaciones inmobiliarias que te brindarán una valoración precisa y confiable de tu propiedad. Ya sea que necesites una tasación para la venta, la compra, o cualquier otro propósito, podemos ayudarte a determinar el valor real de tu inversión
                 </li>
               </ol>
           </div>
