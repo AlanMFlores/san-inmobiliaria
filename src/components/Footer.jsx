@@ -87,12 +87,6 @@ const Footer = () => {
             height={24}
             alt='instagram logo'
           />
-          <Image 
-            src={"/assets/icons/facebook.svg"}
-            width={24}
-            height={24}
-            alt='instagram logo'
-          />
         </div>
       </div>
     </footer>
