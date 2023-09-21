@@ -4,7 +4,7 @@ import Link from 'next/link'
 import OperationTag from './OperationTag'
 
 
-const PropertyCard = ({title, slug, zone, ambience, metres, price, cover, operation}) => {
+const PropertyCard = ({title, slug, ambience, metres, price, cover, operation}) => {
   return (
     <Link href={`/anuncio/${slug}`} passHref>
         <div className='w-full rounded-lg'>
@@ -19,7 +19,6 @@ const PropertyCard = ({title, slug, zone, ambience, metres, price, cover, operat
             </div>
             <div className='bg-warmGray700 p-4 rounded-br-lg rounded-bl-lg w-full min-w-[278px] lg:min-w-[246px] overflow-hidden'>
                 <h3 className='text-lg font-semibold mb-1 truncate'>{title}</h3>
-                <p className='text-sm text-warmGray300 mb-2'>{zone}</p>
                 <p className='text-sm text-warmGray400 mb-2'>{{ambience} > 1 ? `${ambience} ambientes` : `${ambience} ambiente`} - {`${metres}M2`}</p>
                 <div className='flex justify-between'>
                     <p className='text-base font-semibold'>{`U$S ${price}`}</p>

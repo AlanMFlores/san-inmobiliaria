@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Button from './Button'
 
-const PropertyCardWide = ({title, zone, slug, ambience, metres, price, cover, description, operation}) => {
+const PropertyCardWide = ({title, slug, ambience, metres, price, cover, description, operation}) => {
   return (
     <Link href={`/anuncio/${slug}`} passHref>
         <div className='flex w-full flex-col sm:flex-row rounded-lg'>
@@ -20,7 +20,6 @@ const PropertyCardWide = ({title, zone, slug, ambience, metres, price, cover, de
             <div className='flex flex-col justify-between bg-warmGray700 p-4 rounded-bl-lg sm:rounded-bl-none rounded-br-lg sm:rounded-tr-lg sm:rounded-br-lg w-full lg:max-w-none lg:min-w-[246px] overflow-hidden'>
                 <h3 className='text-2xl font-bold text-warmGray400 mb-1'>{`U$S ${price}`}</h3>
                 <p className='text-xl font-bold'>{title}</p>
-                <p className='text-sm text-warmGray300 mb-2'>{zone}</p>
                 <div className='flex gap-4'>
                     <div className='flex gap-2'>
                         <Image 
