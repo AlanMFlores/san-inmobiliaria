@@ -17,17 +17,8 @@ const Nosotros = () => {
           <p className='text-base'>
             Bienvenido a <span className='text-main font-semibold'>San Inmobiliaria</span>, tu socio confiable en el mundo de los bienes raíces en Posadas, provincia de Misiones. Nos enorgullece ofrecerte servicios de asesoramiento personalizado para la compra y venta de propiedades, alquileres y tasaciones.
           </p>
-          <p className='text-base'>
-            En San Inmobiliaria, comprendemos la importancia y el valor que tienen tus sueños y necesidades inmobiliarias. Nuestro equipo de expertos apasionados y comprometidos está aquí para ayudarte en cada paso del camino. Ya sea que busques la casa de tus sueños, desees vender tu propiedad con éxito o necesites asesoramiento para invertir en bienes raíces, estamos aquí para hacer realidad tus objetivos.
-          </p>
-          <p className='text-base'>
-            Nuestra experiencia en el mercado local nos ha convertido en líderes confiables y reconocidos en la industria inmobiliaria de Posadas. Conocemos cada rincón de esta hermosa región y te brindamos un conocimiento profundo del mercado local. Esto nos permite ofrecerte un asesoramiento preciso y personalizado, adaptado a tus necesidades y preferencias específicas.
-          </p>
-          <p className='text-base'>
-            En San Inmobiliaria, nos enorgullece construir relaciones sólidas y duraderas con nuestros clientes. Valoramos la transparencia, la ética y la honestidad en cada interacción. Puedes confiar en que te proporcionaremos información precisa y detallada, así como un servicio de atención al cliente excepcional. Tu satisfacción es nuestra máxima prioridad.
-          </p>
           <div className='flex flex-col gap-6'>
-            <p>Nuestros servicios incluyen:</p>
+            <p>¿Por qué elegirnos?</p>
               <ol className='flex flex-col gap-6 list-decimal ps-4'>
                 <li>
                   <strong>Asesoramiento integral para la compra y venta de propiedades</strong>: Te guiaremos a lo largo de todo el proceso, desde la búsqueda y selección de propiedades hasta la negociación y cierre de la operación. Estamos comprometidos en encontrar la propiedad perfecta que se ajuste a tus necesidades y presupuesto.
